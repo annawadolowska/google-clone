@@ -1,0 +1,198 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*to see the outlines of divs */
+#body{
+	height:100%;
+
+}
+
+#header{
+	
+	height:100px;
+}
+#top_links{
+	float:right;
+	margin:13px 15px;
+	
+}
+#top_links li{
+	
+	padding:3px;
+	margin:10px;
+	line-height: 24px;
+	display:inline;
+}
+
+#top_button{
+background: #4585f3;
+background: url('linear-gradient.png') 0 0 repeat-x;
+background: -webkit-linear-gradient(#3f89f6, #5987df);
+background:    -moz-linear-gradient(#3f89f6, #5987df);
+background:     -ms-linear-gradient(#3f89f6, #5987df);
+background:      -o-linear-gradient(#3f89f6, #5987df);
+background:         linear-gradient(#3f89f6, #5987df);
+
+color:white !important;
+padding:8px 11px;
+border-radius: 2px;
+font-weight: bold;
+}
+
+
+#top_links a{
+	text-decoration: none;
+	color:black;
+	font-size: 13px;
+	font-family: Arial, sans-serif;
+	margin-left:-15px;
+}
+#top_links a:hover{
+	text-decoration: underline;
+}
+
+.grid_icon img{
+	width: 23px;
+	height: 23px;
+	margin-bottom: -8px;
+	padding-left: 12px;
+	padding-right: 12px;
+
+}
+
+#logo{
+	text-align:center;
+	margin-top: 50px;
+}
+
+#search input{
+	width:520px;
+	height:25px;
+	background:url(images/microphone.png) no-repeat;
+	background-position: 500px 7px;
+
+}
+#search{
+padding-top:18px;
+text-align: center;
+	
+}
+#main_buttons{
+	text-align:center;
+	line-height: 50px;
+}
+#main_buttons li{
+	display:inline;
+	padding:10px;
+	
+}
+#main_buttons a{
+	text-decoration:none;
+	color:#4b4747;
+	font-size: 11px;
+	font-family: Arial, sans-serif;
+	font-weight: bold;
+	background: #f0f0f0;
+	border:1px solid #cfc7c7;
+background: url('linear-gradient.png') 0 0 repeat-x;
+background: -webkit-linear-gradient(#eef1f6, #ecf1f5);
+background:    -moz-linear-gradient(#eef1f6, #ecf1f5);
+background:     -ms-linear-gradient(#eef1f6, #ecf1f5);
+background:      -o-linear-gradient(#eef1f6, #ecf1f5);
+background:         linear-gradient(#eef1f6, #ecf1f5);
+padding: 6px;
+border-radius: 3px;
+
+}
+#main_buttons a:hover{
+	color:#222;
+}
+
+	
+#footer{
+position: fixed;
+	bottom: 0px;
+	height: 40px;
+	width: 100%;
+	background: #f2f2f2;
+	
+
+}
+.left_links li{
+	display:inline;
+	float:left;
+	padding:13px;
+}
+.left_links a{
+	text-decoration:none;
+	font-family: Arial, sans-serif;
+	font-size:13px;
+	color: #8f8b8b;
+}
+.left_links a:hover{
+	text-decoration: underline;
+}
+.right_links li{
+	display:inline;
+	float:right;
+	padding:8px;
+
+}
+.right_links a{
+	text-decoration:none;
+	font-family: Arial, sans-serif;
+	font-size:13px;
+	color: #8f8b8b;
+	padding-right: 12px;
+}
+
+.right_links a:hover{
+	text-decoration: underline;
+}
+
